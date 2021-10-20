@@ -1,6 +1,25 @@
-# clojure-noob
+# Clojure Noob
 
-FIXME: description
+The first clojure shoot 
+# REPL
+
+To start a REPL, run this:
+
+`lein repl`
+
+You just used the REPL to evaluate a function call. Try a few more basic Clojure functions:
+
+`clojure-noob.core=> (+ 1 2 3 4)`
+
+10
+
+`clojure-noob.core=> (* 1 2 3 4)`
+
+24
+
+`clojure-noob.core=> (first [1 2 3 4])`
+
+1
 
 ## Installation
 
