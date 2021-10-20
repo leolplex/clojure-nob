@@ -35,6 +35,24 @@
   (if false
     (println "By Zeus's hammer!")))
 
+(defn error-message
+  [severity]
+  (println (str "OH GOD! IT'S A DISASTER! WE'RE "
+       (if (= severity :mild)
+         "MILDLY INCONVENIENCED!"
+         "DOOOOOOOMED!"))))
+
+(defn no-params
+  []
+  "I take no parameters!")
+(defn one-param
+  [x]
+  (str "I take one parameter: " x))
+(defn two-params
+  [x y]
+  (str "Two parameters! That's nothing! Pah! I will smoosh them "
+  "together to spite you! " x y))
+
 print-one
 print-a-string
 print-a-vector
@@ -43,3 +61,5 @@ print-str-operator
 print-if-true
 print-if-false
 print-omit-else-branch
+(error-message :mild)
+(error-message :diff)
