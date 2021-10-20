@@ -1,6 +1,6 @@
 # Clojure Noob
 
-The first clojure shoot 
+The first clojure shoot, in order to run in Windows you will need a lein.bat
 # REPL
 
 To start a REPL, run this:
